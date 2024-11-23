@@ -1,4 +1,5 @@
-import { Theme } from "@types";
+import { Theme } from "@/types";
+
 
 export const lighTheme: Theme = {
     appBackground: '#FFF',
