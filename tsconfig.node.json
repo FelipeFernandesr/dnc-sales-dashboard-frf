@@ -1,4 +1,5 @@
 {
+  
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
     "target": "ES2022",
@@ -9,7 +10,6 @@
     "paths": {
       "@*": ["src/*"]
     },
-
     /* Bundler mode */
     "moduleResolution": "Bundler",
     "allowImportingTsExtensions": true,

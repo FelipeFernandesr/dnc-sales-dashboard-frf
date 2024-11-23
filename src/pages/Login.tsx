@@ -5,7 +5,6 @@ import { BannerImage } from '@/components';
 function Login() {
 
   return (
-
     <>
       <Box>
         <Grid container>

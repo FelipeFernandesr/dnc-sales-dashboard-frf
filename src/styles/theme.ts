@@ -1,5 +1,6 @@
 import { Theme } from "@/types";
 
+
 export const lighTheme: Theme = {
     appBackground: '#FFF',
     appColor: '#000',

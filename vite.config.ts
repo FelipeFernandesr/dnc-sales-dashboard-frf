@@ -13,6 +13,4 @@ export default defineConfig({
   optimizeDeps: {
     include: ['@emotion/styled'],
   },
-  
-  
 })
