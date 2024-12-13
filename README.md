@@ -1,7 +1,7 @@
 # 🖥 Criando um dashboard de vendas para o setor de varejo. 
 
 ### 📜 Sobre o Projeto  
-  Neste projeto estou desenvolvendo uma página web que tem por função principal a obtenção dos dados de vendas e a mostragem destes dados na view do projeto em tempo real. O objetivo é fornecer dados de vendas, metas, e resultados de cada vendedor em individual quanto de toda a equipe de vendas. Com a finalidade de fornecer dados estratejicos que agilizam a fomada de decisão da gerencia estratégica da equipe, bem como da diretoria. 
+  Neste projeto estou desenvolvendo uma página web que tem por função principal a obtenção dos dados de vendas e a mostragem destes dados na view do projeto em tempo real. O objetivo é fornecer dados de vendas, metas, e resultados de cada vendedor em individual quanto de toda a equipe de vendas. Com a finalidade de fornecer dados estrategicos que agilizam a fomada de decisão da gerencia da equipe, bem como da diretoria. 
 
 #### ⚙ Funcionalidades
  
