@@ -1,50 +1,79 @@
-# React + TypeScript + Vite
+# 🖥 Criando um dashboard de vendas para o setor de varejo. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📜 Sobre o Projeto  
+  Neste projeto estou desenvolvendo uma página web que tem por função principal a obtenção dos dados de vendas e a mostragem destes dados na view do projeto em tempo real. O objetivo é fornecer dados de vendas, metas, e resultados de cada vendedor em individual quanto de toda a equipe de vendas. Com a finalidade de fornecer dados estratejicos que agilizam a fomada de decisão da gerencia estratégica da equipe, bem como da diretoria. 
 
-Currently, two official plugins are available:
+#### ⚙ Funcionalidades
+ 
+- **Tela de Login**: Autenticação de usuários para acesso ao dashboard.
+- **Rotas**: Navegação entre diferentes seções do dashboard.
+- **Gerenciamento de Estado**: Uso da Context API para compartilhar dados entre componentes.
+- **Gráfico de Barras**: Uso de gráficos para tornar a visualização de dades mais atraente e intuitiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+     <a href="https://dnc-arq-felipe.vercel.app/">📱 Visite a página</a>
+</p>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 🛠️ Tecnologias Utilizadas  
+- **HTML5** <img 
+    align="left" 
+    alt="HTML"
+    title="HTML" 
+    width="17px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
+- **CSS3**<img 
+    align="left" 
+    alt="CSS" 
+    title="CSS"
+    width="17px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
+/>
+- **React**<img 
+    align="left" 
+    alt="React" 
+    title="React"
+    width="17px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" 
+/>
+- **Typescript**<img 
+    align="left" 
+    alt="Typescript" 
+    title="Typescript"
+    width="17px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" 
+/>
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 🎯 Objetivos do Projeto  
+1. **Aprendizado Prático**: Fortalecer minhas habilidades ao criar um projeto realista, aplicando conceitos essenciais de front-end.   
+2. **Preparação para o Futuro**: Demonstrar minha capacidade de aprender e entregar projetos com qualidade em um ambiente competitivo.  
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### 📂 Como Executar Localmente  
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/FelipeFernandesr/dnc-sales-dashboard-frf.git
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+## Autor:
+
+<img  src="https://github.com/FelipeFernandesr/MuseuNacional/blob/main/img/AvatarFelipe.png"  width="80px" align="left" /> 
+
+
+### Felipe Fernandes
+Sou um desenvolvedor apaixonado por aprender e criar experiências visuais que conectam pessoas e ideias. Este projeto é um reflexo do meu compromisso em evoluir continuamente como profissional e entregar valor por meio da tecnologia.
+
+#### Conecte-se comigo!
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/FelipeFernandesr)
+<a href = "mailto:felipefrf9@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href="https://api.whatsapp.com/send?l=pt_BR&phone=5521979086285" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
