@@ -11,7 +11,7 @@
 - **Gráfico de Barras**: Uso de gráficos para tornar a visualização de dades mais atraente e intuitiva.
 
 <p align="center">
-     <a href="https://dnc-arq-felipe.vercel.app/">📱 Visite a página</a>
+     <a href="dnc-sales-dashboard-frf.vercel.app">📱 Visite a página</a>
 </p>
 
 ---
