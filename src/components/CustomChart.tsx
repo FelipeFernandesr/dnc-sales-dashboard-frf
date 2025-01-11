@@ -26,8 +26,8 @@ ChartJs.register(
 )
 
 function CustomChart(props: CustomChartProps) {
-    const { data, labels, type } = props;
-    const theme = useTheme();
+    const { data, labels, type } = props
+    const theme = useTheme()
     const options = {
         responsive: true,
         scaleShowVerticalLines: false,
