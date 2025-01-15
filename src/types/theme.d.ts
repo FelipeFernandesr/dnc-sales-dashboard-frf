@@ -31,9 +31,11 @@ export interface Theme {
         disabledColor: string
         placeholderColor: string
     }
+    
     typographies: {
         error: string
         subtitle: string
         success: string
     }
+
 }
