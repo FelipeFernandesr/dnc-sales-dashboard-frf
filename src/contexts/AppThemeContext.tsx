@@ -1,6 +1,6 @@
 import { createContext, useState, useEffect, ReactNode } from 'react'
 import { ThemeProvider } from 'styled-components'
-import { darkTheme, lighTheme } from '@/styles' // Corrigido de lighTheme para lightTheme
+import { darkTheme, lightTheme } from '@/styles' // Corrigido de lighTheme para lightTheme
 import { AppThemeContextProps } from '@/types'
 
 export const AppThemeContext = createContext<AppThemeContextProps | undefined>(undefined)
@@ -20,7 +20,9 @@ export const AppThemeProvider = ({ children }: { children: ReactNode }) => {
 
     return (
         <AppThemeContext.Provider value={{ appTheme, toggleTheme }}>
-            <ThemeProvider theme={appTheme === 'light' ? lighTheme : darkTheme}>
+            <ThemeProvider 
+                theme={appTheme === 'light' ? lightTheme : darkTheme}
+            >
                 {children}
             </ThemeProvider>
         </AppThemeContext.Provider>
