@@ -4,6 +4,7 @@ import { BannerImage, FormComponent, Logo, StyledH1, StyledP, StyledUl } from '@
 import { pxToRem } from "@/utils";
 
 function Registration() {
+  
 
   return (
     <>

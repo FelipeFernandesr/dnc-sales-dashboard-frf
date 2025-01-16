@@ -4,6 +4,7 @@ import { BannerImage, FormComponent, Logo, StyledH1, StyledP } from '@/component
 import { pxToRem } from "@/utils";
 
 function Login() {
+  
 
   return (
     <>
@@ -36,6 +37,7 @@ function Login() {
         </Grid>
       </Box>
     </>
+
 
   )
 }
