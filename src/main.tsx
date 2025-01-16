@@ -7,7 +7,7 @@ import { AppThemeProvider } from './contexts/AppThemeContext.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={lighTheme}>
       <GlobalStyle />
       <App />
     </ThemeProvider>
