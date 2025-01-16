@@ -11,7 +11,7 @@
 - **Gráfico de Barras**: Uso de gráficos para tornar a visualização de dades mais atraente e intuitiva.
 
 <p align="center">
-     <a href="https://dnc-sales-dashboa-git-6723e6-felipe-fernandes-projects-c85b3bd7.vercel.app/" target="_blank">📱 Visite a página</a>
+     <a href="https://dnc-sales-dashboa-git-6723e6-felipe-fernandes-projects-c85b3bd7.vercel.app/">📱 Visite a página</a>
 </p>
 
 ---
