@@ -27,7 +27,7 @@ function Login() {
   const { formValues, formValid, handleChange } = useFormValidation(inputs)
 
   const handleMessage = (): MessageProps => {
-    if (!error) return { msg: '', type: 'success' };
+    if (!error) return { msg: '', type: 'success' }
     switch (error) {
       case 401:
         return {
