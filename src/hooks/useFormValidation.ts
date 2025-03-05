@@ -7,6 +7,9 @@ export const useFormValidation = (inputs: InputProps[]) => {
 
     useEffect(() => {
         const allFieldsValid = inputs.every((input, index) => {
+            const value = formValues[index]
+            if (input.required && !value) return false;
+            
             if (input.type === 'email') {
                 return /\S+@\S+\.\S+/.test(String(formValues[index]))
             }
