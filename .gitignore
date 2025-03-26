@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 coverage
+cypress/screenshots
 node_modules
 dist
 dist-ssr
