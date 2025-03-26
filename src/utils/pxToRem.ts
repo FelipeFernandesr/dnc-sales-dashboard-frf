@@ -4,5 +4,5 @@
  * @returns The converted rem value
  */
 export function pxToRem(pixels: number): string {
-    return `${pixels / 16}rem`
+  return `${pixels / 16}rem`
 }

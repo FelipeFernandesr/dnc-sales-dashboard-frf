@@ -1,5 +1,5 @@
 export interface NewsData {
-    title: string
-    date: string
-    link: string
+  title: string
+  date: string
+  link: string
 }

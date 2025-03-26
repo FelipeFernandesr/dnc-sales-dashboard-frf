@@ -1,4 +1,4 @@
 export interface CustomTableProps {
-    headers: string[]
-    rows: React.ReactNode[][]
+  headers: string[]
+  rows: React.ReactNode[][]
 }

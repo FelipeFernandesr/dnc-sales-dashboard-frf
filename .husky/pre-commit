@@ -1,0 +1,13 @@
+echo 'Commit test init'
+
+# Prettier
+echo 'Running Prettier...'
+npm run format
+
+#Lint
+echo 'Runnint Lint...'
+npm rum lint
+
+#Unit tests
+echo 'Running Unit tests...'
+npm run tests

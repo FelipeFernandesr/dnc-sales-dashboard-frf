@@ -1,5 +1,5 @@
 export interface DecodedJWT {
-    userId: number
-    iat: number
-    exp: number
+  userId: number
+  iat: number
+  exp: number
 }
