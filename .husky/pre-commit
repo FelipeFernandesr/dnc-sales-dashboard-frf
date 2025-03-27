@@ -1,0 +1,11 @@
+echo "Iniciando testes de pré-commit"
+
+# Verifica formatação com Prettier
+npm run format
+
+# Executa ESLint
+npm run lint
+
+# Roda testes unitários
+echo "Executando testes unitários"
+npm run test

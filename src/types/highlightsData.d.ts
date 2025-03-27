@@ -1,4 +1,4 @@
 export interface HighlightsData {
-    value: number
-    subtitle: string
+  value: number
+  subtitle: string
 }
