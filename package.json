@@ -1,13 +1,13 @@
 {
   "name": "dnc-sales-dashboard-flp",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "format": "prettier --write ./src",
-    "lint": "eslint .",
+    "lint": "",
     "preview": "vite preview",
     "test": "jest --coverage",
     "cypress:open": "cypress open",

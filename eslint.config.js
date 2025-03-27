@@ -12,7 +12,7 @@ export default tseslint.config(
       ...tseslint.configs.recommended,
       'eslint:recommended',
       'plugin:@typescript-eslint/recommended',
-      'plugin:react:react-hooks/recommended',
+      'plugin:react-hooks/recommended',
       'eslint-config-prettier',
       'plugin:cypress/recommended',
     ],

@@ -1,13 +1,11 @@
-echo 'Commit test init'
+echo "Iniciando testes de pré-commit"
 
-# Prettier
-echo 'Running Prettier...'
+# Verifica formatação com Prettier
 npm run format
 
-#Lint
-echo 'Runnint Lint...'
-npm rum lint
+# Executa ESLint
+npm run lint
 
-#Unit tests
-echo 'Running Unit tests...'
-npm run tests
+# Roda testes unitários
+echo "Executando testes unitários"
+npm run test
